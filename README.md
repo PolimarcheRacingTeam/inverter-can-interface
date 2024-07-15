@@ -10,7 +10,7 @@
 6. [Installazione e Configurazione](#installazione-e-configurazione)
 7. [Spiegazione del Codice](#spiegazione-del-codice)
 8. [Risultati dei test](#risultati-dei-test)
-9. [Risorse e Riferimenti](#risorse-e-riferimenti)
+9. [Crediti](#crediti)
 
 ## Introduzione
 Il progetto consiste nello sviluppare la comunicazione tra un microcontrollore e un inverter tramite protocollo CAN nell'ambito delle gare automobilistiche, in particolare per una vettura di Formula SAE.
@@ -416,3 +416,17 @@ AMK_TempInverter: 31.500000
 AMK_ErrorInfo: 0
 AMK_TempIGBT: 31.500000
 ```
+
+## Crediti
+
+Questo progetto utilizza e modifica le seguenti librerie:
+
+#### [arduino-CAN]
+- **Autore**: sandeepmistry
+- **Licenza**: MIT License
+- **URL**: [Link alla libreria originale](https://github.com/sandeepmistry/arduino-CAN)
+
+#### [Adafruit_CAN]
+- **Autore**: adafruit
+- **Licenza**: MIT License
+- **URL**: [Link alla libreria originale](https://github.com/adafruit/Adafruit_CAN)
