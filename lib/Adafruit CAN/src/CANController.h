@@ -1,10 +1,13 @@
+// Forked from:
 // Copyright (c) Sandeep Mistry. All rights reserved.
-// Licensed under the MIT license. See LICENSE file in the project root for full license information.
+// Licensed under the MIT license. See LICENSE file in the project root for full
+// license information.
 
 #ifndef CAN_CONTROLLER_H
 #define CAN_CONTROLLER_H
 
 #include <Arduino.h>
+#include <functional>
 
 class CANControllerClass : public Stream {
 
@@ -32,7 +35,7 @@ public:
   virtual int peek();
   virtual void flush();
 
-  virtual void onReceive(void(*callback)(int));
+  virtual void onReceive(std::function<void(int)> callback);
 
   virtual int filter(int id) { return filter(id, 0x7ff); }
   virtual int filter(int id, int mask);
@@ -49,7 +52,7 @@ protected:
   virtual ~CANControllerClass();
 
 protected:
-  void (*_onReceive)(int);
+  std::function<void(int)> _onReceive;
 
   bool _packetBegun;
   long _txId;
