@@ -18,7 +18,7 @@ Il progetto consiste nello sviluppare la comunicazione tra un microcontrollore e
 ## Cos'è il CAN Bus
 Il CAN bus (Controller Area Network) è un protocollo di comunicazione molto robusto utilizzato principalmente nei veicoli e nei sistemi industriali per permettere ai vari dispositivi di comunicare tra loro senza un entità centrale.
 
-### Vantaggi del CAN bus
+#### Vantaggi del CAN bus
 Il CAN bus ha diversi vantaggi:
 - **Robustezza** poichè è stato sviluppato proprio per lavorare in ambienti difficili. 
 Infatti è molto resistente ai disturbi elettromagnetici e garantisce una comunicazione più affidabile rispetto ad altri sistemi. 
@@ -29,11 +29,11 @@ Un'altro fattore di robustezza è il rilevamento degli errori che viene implemen
 - **arbitraggio distribuito** evitando così di avere problemi nel caso in cui un solo dispositivo fallisca.
 - **velocità elevate** fino a 1 Mbps che è molto elevato rispetto alle applicazioni automobilistiche o industriali. Basti pensare all'applicazione utilizzata in questo progetto in cui viene inviato un pacchetto con un contenuto da 8 byte (64 bit). Contando che un frame CAN utilizza altri bit per il rilevamento di errori, arbitraggio ed altri motivi si potrebbe concludere che un pacchetto abbia dimensione pari a 100 bit. Di conseguenza per trasmettere 100 bit il sistema impiegherà 0,0001 s = 100 µs.
 
-### CAN Frame
+#### CAN Frame
 Il frame CAN è il seguente
 ![CAN_frame](/img/CAN-full-frame.jpg)
 
-### Motivazioni sull'utilizzo nel progetto
+#### Motivazioni sull'utilizzo nel progetto
 La motivazione principale per l'utilizzo del CAN bus nel progetto riguarda la struttura di rete presente nel veicolo. Il veicolo include numerosi dispositivi, come l'inverter, il pacco batteria, l'IMU (Unità di Misura Inerziale) e varie schede di comunicazione, che operano utilizzando il CAN bus. Utilizzare un unico bus di comunicazione per tutti questi dispositivi offre diversi vantaggi tra cui, dal mio punto di vista il più importante ovvero la semplicità del software utilizzato. Infatti utilizzare un unico CAN bus permette di definire librerie comuni a tutti i dispositivi che contengono ID dei pacchetti, vari messaggi di errore e nel caso di hardware simili anche operazioni di invio e ricezione standard.
 
 ## Specifiche di progetto
@@ -58,12 +58,12 @@ Il software utilizzato comprende:
 
 ## Installazione e Configurazione
 I passi per la configurazione necessari sono:
-### 1. collegamento degli inverter
+#### 1. collegamento degli inverter
 Il primo step è quello di effettuare 
 - il collegamento degli inverter ai motori (cavo encoder) e 
 - il collegamento in EtherCAT ai vari inverter. Viene collegato il PC al primo degli inverter tramite cavo Ethernet. Ogni inverter è collegato direttamente tramite un cavo Ethernet al dispositivo successivo. Questi cavi Ethernet trasportano i dati in tempo reale tra i dispositivi EtherCAT.
 - un'altro collegamento necessario al funzionamento del tutto è quello di alimentazione, nel nostro caso è necessario anche solo l'alimentazione 24V che permette il funzionamento della componente logica.
-### 2. configurazione degli inverter
+#### 2. configurazione degli inverter
 E' possibile tramite AMK Aipex Pro configurare tutti i parametri relativi agli inverter.
 E' possibile utilizzare 2 configurazioni CAN differenti:
 - **Free configuration** in cui si ha il massimo livello di personalizzazione dei pacchetti CAN (non utilizzata in questo progetto)
@@ -76,7 +76,7 @@ all'interno del parametro User list 3 (ID34091):
 L'output rate utilizzato è 50 ms il che significa che ogni inverter, ogni 50 ms costruisce un pacchetto e lo invia sul CAN bus con gli ID specificati da Actual Values 1 e 2. Il transmission rate è impostato al default (500 kBit/s)
 
 Gli altri parametri dell'inverter che non riguardano il CAN possono essere impostati in base alle specifiche del proprio progetto.
-### 3. collegamento del can bus alla scheda
+#### 3. collegamento del can bus alla scheda
 Nel caso in cui l'inverter è pronto (status LED green) si può procedere al collegamento della scheda all'inverter tramite (abbiamo utilizzato dei jumper almeno per la fase di testing).
 ![can_linking](/img/can_link.jpeg)
 In foto:
@@ -85,7 +85,7 @@ In foto:
 - giallo collegato al marrone è CAN_LOW
 ![can_linking](/img/can_link2.png)
 Inoltre la scheda deve essere alimentata, nel nostro caso l'alimentazione viene data dal pc (cavo usb-c) da cui viene effettuato l'upload del codice.
-### 4. Installazione di PlatformIO IDE e upload del codice
+#### 4. Installazione di PlatformIO IDE e upload del codice
 Una volte scritto lo script PlatformIO IDE fornisce funzionalità di build e di upload sulla scheda. Se, come nel nostro caso per scopi di testing ci si collega al seriale si possono anche visualizzare i dati inviati e ricevuti (i pacchetti CAN).
 
 Prima di visulizzare i risultati dei test analizziamo il codice.
@@ -215,7 +215,7 @@ Mentre il buffer si riferisce ad un vettore da 8 Byte ed è l'effettivo pacchett
 - *set_values()* che va a settare il messaggio da inviare. In questa prima versione dello script il messaggio è sempre lo stesso e questa funzione in futuro dovrà dipendere da input esterni;
 
 Analizziamo ora le funzioni di ricezione ed invio
-### *receive_message()*
+#### *receive_message()*
 Prima di vedere la funzione è fondamentale capire a cosa ci si riferisce con amk_actual_values e amk_actual_values_1 o 2. Infatti i messaggi in ricezione definiti da AMK sono 2:
 ![Actual values 1](img/actual_values_1.png)
 descritto nello struct 
@@ -292,7 +292,7 @@ void receive_message(int packetSize)
     process_actual_values(&actual_values, is_actual_values_1);
 }
 ```
-### *send_message(uint8_t\* message, const int address)*
+#### *send_message(uint8_t\* message, const int address)*
 La funzione restituisce un valore booleano che corrisponde alla corretta riuscita dell'invio:
 - restituisce *true* nel caso di corretto invio;
 - restituisce *false* nel caso in cui ci siano interruzioni durante l'invio (ad es. vengono inviati meno bit)
@@ -312,7 +312,7 @@ Per quanto riguarda i test che sono stati effettuati sono principalmente 2:
 - test sulla corretta ricezione del valore di velocità presente negli actual_values_1
 - test sulla corretta ricezione del valore di temperatura dei motori presente negli actual_values_2
 
-### 1. test sulla velocità del motore
+#### 1. test sulla velocità del motore
 Non disponendo di alimentazione HV non è stato possibile alimentare correttamente i motori. Per questo è stato utilizzato un avvitatore per far girare il motore e quindi effettuare delle letture tramite l'encoder.
 
 <video width="320" height="240" controls>
