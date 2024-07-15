@@ -1,0 +1,540 @@
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.078369
+AMK_MagnetCurrent: -0.026123
+Received CAN packet from...0x285
+AMK_TempMotor: 40.500000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.026123
+AMK_MagnetCurrent: -0.045715
+Received CAN packet from...0x285
+AMK_TempMotor: 40.500000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: 0.019592
+AMK_MagnetCurrent: -0.078369
+Received CAN packet from...0x285
+AMK_TempMotor: 40.500000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.026123
+AMK_MagnetCurrent: 0.013062
+Received CAN packet from...0x285
+AMK_TempMotor: 40.500000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.019592
+AMK_MagnetCurrent: -0.052246
+Received CAN packet from...0x285
+AMK_TempMotor: 40.500000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.019592
+AMK_MagnetCurrent: -0.052246
+Received CAN packet from...0x285
+AMK_TempMotor: 40.500000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.078369
+AMK_MagnetCurrent: 0.032654
+Received CAN packet from...0x285
+AMK_TempMotor: 40.500000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.078369
+AMK_MagnetCurrent: -0.026123
+Received CAN packet from...0x285
+AMK_TempMotor: 40.500000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: 0.019592
+AMK_MagnetCurrent: -0.078369
+Received CAN packet from...0x285
+AMK_TempMotor: 40.500000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.039185
+AMK_MagnetCurrent: 0.006531
+Received CAN packet from...0x285
+AMK_TempMotor: 40.500000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.078369
+AMK_MagnetCurrent: -0.026123
+Received CAN packet from...0x285
+AMK_TempMotor: 40.500000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.019592
+AMK_MagnetCurrent: 0.000000
+Received CAN packet from...0x285
+AMK_TempMotor: 40.500000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.078369
+AMK_MagnetCurrent: -0.026123
+Received CAN packet from...0x285
+AMK_TempMotor: 40.500000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.013062
+AMK_MagnetCurrent: 0.019592
+Received CAN packet from...0x285
+AMK_TempMotor: 40.500000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: 0.026123
+AMK_MagnetCurrent: 0.026123
+Received CAN packet from...0x285
+AMK_TempMotor: 40.500000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.071838
+AMK_MagnetCurrent: -0.039185
+Received CAN packet from...0x285
+AMK_TempMotor: 40.500000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.019592
+AMK_MagnetCurrent: -0.052246
+Received CAN packet from...0x285
+AMK_TempMotor: 40.600000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.032654
+AMK_MagnetCurrent: 0.000000
+Received CAN packet from...0x285
+AMK_TempMotor: 40.500000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.026123
+AMK_MagnetCurrent: -0.045715
+Received CAN packet from...0x285
+AMK_TempMotor: 40.600000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: 0.019592
+AMK_MagnetCurrent: -0.019592
+Received CAN packet from...0x285
+AMK_TempMotor: 40.600000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.026123
+AMK_MagnetCurrent: -0.045715
+Received CAN packet from...0x285
+AMK_TempMotor: 40.600000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.039185
+AMK_MagnetCurrent: -0.052246
+Received CAN packet from...0x285
+AMK_TempMotor: 40.500000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.019592
+AMK_MagnetCurrent: -0.052246
+Received CAN packet from...0x285
+AMK_TempMotor: 40.600000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.019592
+AMK_MagnetCurrent: -0.052246
+Received CAN packet from...0x285
+AMK_TempMotor: 40.600000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.032654
+AMK_MagnetCurrent: 0.000000
+Received CAN packet from...0x285
+AMK_TempMotor: 40.600000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.078369
+AMK_MagnetCurrent: -0.084900
+Received CAN packet from...0x285
+AMK_TempMotor: 40.600000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.084900
+AMK_MagnetCurrent: -0.071838
+Received CAN packet from...0x285
+AMK_TempMotor: 40.600000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.078369
+AMK_MagnetCurrent: -0.026123
+Received CAN packet from...0x285
+AMK_TempMotor: 40.600000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.019592
+AMK_MagnetCurrent: -0.052246
+Received CAN packet from...0x285
+AMK_TempMotor: 40.600000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.019592
+AMK_MagnetCurrent: -0.052246
+Received CAN packet from...0x285
+AMK_TempMotor: 40.500000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.032654
+AMK_MagnetCurrent: 0.000000
+Received CAN packet from...0x285
+AMK_TempMotor: 40.500000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: 0.013062
+AMK_MagnetCurrent: -0.039185
+Received CAN packet from...0x285
+AMK_TempMotor: 40.600000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.071838
+AMK_MagnetCurrent: -0.039185
+Received CAN packet from...0x285
+AMK_TempMotor: 40.600000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.078369
+AMK_MagnetCurrent: -0.026123
+Received CAN packet from...0x285
+AMK_TempMotor: 40.600000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: 0.013062
+AMK_MagnetCurrent: -0.039185
+Received CAN packet from...0x285
+AMK_TempMotor: 40.600000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.019592
+AMK_MagnetCurrent: -0.052246
+Received CAN packet from...0x285
+AMK_TempMotor: 40.600000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: 0.019592
+AMK_MagnetCurrent: -0.078369
+Received CAN packet from...0x285
+AMK_TempMotor: 40.600000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.019592
+AMK_MagnetCurrent: -0.052246
+Received CAN packet from...0x285
+AMK_TempMotor: 40.600000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.026123
+AMK_MagnetCurrent: 0.013062
+Received CAN packet from...0x285
+AMK_TempMotor: 40.600000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.032654
+AMK_MagnetCurrent: -0.117554
+Received CAN packet from...0x285
+AMK_TempMotor: 40.600000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
+Sending packet to ...0x184
+Sending packet to ...0x185
+Done Sending!
+Received CAN packet from...0x283
+AMK_Status: 53504
+AMK_ActualVelocity: 0
+AMK_TorqueCurrent: -0.026123
+AMK_MagnetCurrent: -0.045715
+Received CAN packet from...0x285
+AMK_TempMotor: 40.600000
+AMK_TempInverter: 31.400000
+AMK_ErrorInfo: 0
+AMK_TempIGBT: 31.400000
