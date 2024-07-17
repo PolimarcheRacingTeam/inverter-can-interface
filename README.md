@@ -72,7 +72,7 @@ E' possibile utilizzare 2 configurazioni CAN differenti:
 In particolare, ogni inverter è identificato da un NODE_ADDRESS che poi andrà a costituire parte dei vari CAN Identifier ovvero gli ID dei pacchetti. E' importante settare i NODE_ADDRESS come specificato da AMK (o in altro modo ma evitando conflitti tra ID):
 ![can_ids](/img/can_ids.png)
 all'interno del parametro User list 3 (ID34091):
-![Node_address](/img/node_setting.png)
+![Node_address](/img/node_setting.jpeg)
 L'output rate utilizzato è 50 ms il che significa che ogni inverter, ogni 50 ms costruisce un pacchetto e lo invia sul CAN bus con gli ID specificati da Actual Values 1 e 2. Il transmission rate è impostato al default (500 kBit/s)
 
 Gli altri parametri dell'inverter che non riguardano il CAN possono essere impostati in base alle specifiche del proprio progetto.
