@@ -4,6 +4,8 @@
 
 Il progetto consiste nello sviluppare la comunicazione tra un microcontrollore e un inverter tramite protocollo CAN nell'ambito delle gare automobilistiche, in particolare per una vettura di Formula SAE.
 
+## Installazione e Configurazione
+
 I passi per la configurazione necessari sono:
 
 ### 1. collegamento degli inverter
