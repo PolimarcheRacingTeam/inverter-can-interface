@@ -54,5 +54,3 @@ Inoltre la scheda deve essere alimentata, nel nostro caso l'alimentazione viene 
 ### 4. Installazione di PlatformIO IDE e upload del codice
 
 Una volte scritto lo script PlatformIO IDE fornisce funzionalità di build e di upload sulla scheda. Se, come nel nostro caso per scopi di testing ci si collega al seriale si possono anche visualizzare i dati inviati e ricevuti (i pacchetti CAN).
-
-Prima di visulizzare i risultati dei test analizziamo il codice.
