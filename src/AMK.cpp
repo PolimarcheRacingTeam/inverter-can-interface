@@ -31,7 +31,6 @@ void init_device()
     }
 }
 
-// conversione da big endian a little endian
 void build_message(amk_setpoint_1 *setpoint, uint8_t *buffer)
 {
     buffer[0] = setpoint->amk_control & 0xFF;
